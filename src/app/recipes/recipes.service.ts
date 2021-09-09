@@ -29,8 +29,7 @@ export class RecipesService {
   }
   getRecipe(recipeId: string){
     return {
-      ...this.recipes.find(recipe => recipe.id === recipeId
-      )
+      ...this.recipes.find(recipe => recipe.id === recipeId)
     };
   }
 }
